@@ -1,3 +1,70 @@
 {
-  "items": []
+  "items": [
+    {
+      "url": "https://www.digimart.net/cat1/shop3800/DS10642570/",
+      "title": "Gibson Custom Shop Historic Collection 1959 Les Paul Standard Reissue Lemon Burst Murphy Aged 2000",
+      "shop": "三木楽器 梅田店（デジマート経由）",
+      "price_jpy": 1089000,
+      "manufacture_year": 2000,
+      "custom_shop": true,
+      "condition": "中古 B+",
+      "status": "在庫あり（確認時点）",
+      "first_seen": "2026-08-01"
+    },
+    {
+      "url": "https://www.hybridguitars.com/item.php?code=5532",
+      "title": "Gibson Custom Shop Historic Collection 1959 Les Paul Standard Reissue Plane Top Aged Washed Cherry 2000",
+      "shop": "東京新宿ハイブリッドギターズ",
+      "price_jpy": null,
+      "manufacture_year": 2000,
+      "custom_shop": true,
+      "condition": "中古",
+      "status": "要確認（自動アクセス不可のためサイトで直接確認要）",
+      "first_seen": "2026-08-01"
+    },
+    {
+      "url": "https://www.hybridguitars.com/item.php?code=5663",
+      "title": "Gibson Custom Shop Historic Collection 1959 Les Paul Standard Reissue Gloss Lemon Burst 2000",
+      "shop": "東京新宿ハイブリッドギターズ",
+      "price_jpy": null,
+      "manufacture_year": 2000,
+      "custom_shop": true,
+      "condition": "中古",
+      "status": "要確認（自動アクセス不可のためサイトで直接確認要）",
+      "first_seen": "2026-08-01"
+    },
+    {
+      "url": "https://reverb.com/item/1900411-2000-gibson-les-paul-standard-1959-reissue-historic-custom-shop-r9-59-ri",
+      "title": "2000 Gibson Les Paul Standard 1959 Reissue Historic Custom Shop R9 59 RI",
+      "shop": "Reverb（海外個人/ショップ出品）",
+      "price_jpy": null,
+      "manufacture_year": 2000,
+      "custom_shop": true,
+      "condition": "中古 (EX-)",
+      "status": "要確認（海外サイト、価格・在庫は要直接確認）",
+      "first_seen": "2026-08-01"
+    },
+    {
+      "url": "https://reverb.com/en-fr/item/9985226-2000-gibson-les-paul-r9-custom-shop-1959-reissue-electric-guitar-sunburst-ohsc",
+      "title": "2000 Gibson Les Paul R9 Custom Shop 1959 Reissue Electric Guitar Sunburst OHSC",
+      "shop": "Reverb（海外個人/ショップ出品）",
+      "price_jpy": null,
+      "manufacture_year": 2000,
+      "custom_shop": true,
+      "condition": "中古（良好、軽微な使用感）",
+      "status": "要確認（海外サイト、価格・在庫は要直接確認）",
+      "first_seen": "2026-08-01"
+    },
+    {
+      "url": "https://antique-guitarshop.wixsite.com/2016/product-page/gibson-custom-shop-historic-collection-1959-les-paul-2000%E5%B9%B4%E8%A3%BD",
+      "title": "Gibson Custom Shop Historic Collection 1959 Les Paul 2000年製",
+      "shop": "Antique Guitar Shop",
+      "price_jpy": null,
+      "manufacture_year": 2000,
+      "custom_shop": true,
+      "condition": "極上（コレクター20年保管）",
+      "status": "在庫なし（SOLD/参考情報のみ）",
+      "first_seen": "2026-08-01"
+    }
+  ]
 }
