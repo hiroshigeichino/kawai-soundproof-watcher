@@ -1,0 +1,39 @@
+{
+  "recipient_email": "hiroshige.ichino@gmail.com",
+  "note": "Dr-50 / Dr-40 are sound insulation grades (遮音等級), not model numbers. Kawai's unit-type soundproof room brand is 'ナサール' (Nasall). Yamaha's equivalent product line is 'セフィーネNS' (Cefine NS).",
+  "targets": [
+    {
+      "priority": 1,
+      "label": "DR-50 (第一希望)",
+      "brand": "KAWAI",
+      "series": "ナサール (Nasall)",
+      "sound_rating": "Dr-50",
+      "size_requirement": "指定なし。Dr-50等級のナサールであればどのサイズ・型番でも対象（例: UWS22-33 [4.6畳], UWS22-24 [3.4畳] など）",
+      "condition": "中古のみ"
+    },
+    {
+      "priority": 2,
+      "label": "DR-40 4.3畳 (次点)",
+      "brand": ["KAWAI", "YAMAHA"],
+      "series": {
+        "KAWAI": "ナサール (Nasall) — 例: LKSX22-31（ライトタイプ）, MKSX22-31（スタンダードタイプ）",
+        "YAMAHA": "セフィーネNS (Cefine NS) — 例: AMDC43H（標準壁）, AMDC43C（高壁）"
+      },
+      "sound_rating": "Dr-40",
+      "size_requirement": "4.3畳タイプのみ（他サイズは対象外）",
+      "condition": "中古のみ"
+    }
+  ],
+  "sources": {
+    "priority_high": [
+      "中古楽器店・防音室専門店・防音室リサイクル/買取業者（例: ミュージックランドKEY中古防音室, 防音ナビ中古, 楽器店の中古防音室コーナー等）",
+      "カワイ/ヤマハ特約店の中古・展示品防音室ページ"
+    ],
+    "priority_normal": [
+      "メルカリ (mercari.com)",
+      "ヤフオク! (page.auctions.yahoo.co.jp)",
+      "PayPayフリマ (paypayfleamarket.yahoo.co.jp)",
+      "ジモティー (jmty.jp)"
+    ]
+  }
+}
