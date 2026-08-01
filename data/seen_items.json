@@ -65,6 +65,39 @@
       "condition": "極上（コレクター20年保管）",
       "status": "在庫なし（SOLD/参考情報のみ）",
       "first_seen": "2026-08-01"
+    },
+    {
+      "url": "https://www.digimart.net/cat01/shop5046/DS09027310/",
+      "title": "Gibson Custom Shop 2000 Historic Collection 1959 Les Paul Standard Aged Plain Top (Lemon Drop)",
+      "shop": "デジマート掲載ショップ（shop5046）",
+      "price_jpy": null,
+      "manufacture_year": 2000,
+      "custom_shop": true,
+      "condition": "中古",
+      "status": "要確認（自動アクセス不可のためサイトで直接確認要）",
+      "first_seen": "2026-08-01"
+    },
+    {
+      "url": "https://www.digimart.net/cat1/shop4840/DS09541439/",
+      "title": "Gibson Custom Shop Historic Collection 1959 Les Paul Reissue（中古/送料無料）",
+      "shop": "デジマート掲載ショップ（shop4840）",
+      "price_jpy": null,
+      "manufacture_year": null,
+      "custom_shop": true,
+      "condition": "中古",
+      "status": "要確認（タイトルに年式記載無し。2000年製か要確認）",
+      "first_seen": "2026-08-01"
+    },
+    {
+      "url": "https://www.rockin.co.jp/shop/archives/63312.html",
+      "title": "2000年製ヒスコレ Gibson Custom Shop Historic Collection 1959 Les Paul Standard Reissue 2000",
+      "shop": "平野楽器 ロッキン オンラインストア",
+      "price_jpy": null,
+      "manufacture_year": 2000,
+      "custom_shop": true,
+      "condition": "非常にキレイなコンディション",
+      "status": "要確認（自動アクセス不可のためサイトで直接確認要）",
+      "first_seen": "2026-08-01"
     }
   ]
 }
