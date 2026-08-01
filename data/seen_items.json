@@ -1,3 +1,36 @@
 {
-  "items": []
+  "items": [
+    {
+      "url": "https://www.piano-plaza.com/usedsp/20007",
+      "label": "カワイナサール UWS22-24（Dr-50 / 3.4畳 / 2012年製）",
+      "price_jpy": 2860000,
+      "priority": 1,
+      "source": "ピアノプラザ",
+      "notified_at": "2026-08-01T03:58:47Z"
+    },
+    {
+      "url": "https://www.piano-plaza.com/usedsp/20227",
+      "label": "カワイナサール UWS22-33（Dr-50 / 4.6畳 / 2021年製・展示中新古品）",
+      "price_jpy": 3300000,
+      "priority": 1,
+      "source": "ピアノプラザ",
+      "notified_at": "2026-08-01T03:58:47Z"
+    },
+    {
+      "url": "https://www.piano-plaza.com/usedsp/20467",
+      "label": "カワイナサール UWS22-29特高（Dr-50 / 4畳 / 2022年製）",
+      "price_jpy": 3300000,
+      "priority": 1,
+      "source": "ピアノプラザ",
+      "notified_at": "2026-08-01T03:58:47Z"
+    },
+    {
+      "url": "https://www.miyajimusic.com/soundsolution/used/2584/",
+      "label": "セフィーネNS 4.3畳(Dr-40) AMCD43C3R（ヤマハ / 2017年製・倉庫保管中）",
+      "price_jpy": 1540000,
+      "priority": 2,
+      "source": "宮地楽器 防音リフォーム事業部",
+      "notified_at": "2026-08-01T03:58:47Z"
+    }
+  ]
 }
