@@ -1,39 +1,46 @@
 {
   "recipient_email": "hiroshige.ichino@gmail.com",
-  "note": "Dr-50 / Dr-40 are sound insulation grades (遮音等級), not model numbers. Kawai's unit-type soundproof room brand is 'ナサール' (Nasall). Yamaha's equivalent product line is 'セフィーネNS' (Cefine NS).",
-  "targets": [
-    {
-      "priority": 1,
-      "label": "DR-50 (第一希望)",
-      "brand": "KAWAI",
-      "series": "ナサール (Nasall)",
-      "sound_rating": "Dr-50",
-      "size_requirement": "指定なし。Dr-50等級のナサールであればどのサイズ・型番でも対象（例: UWS22-33 [4.6畳], UWS22-24 [3.4畳] など）",
-      "condition": "中古のみ"
+  "note": "Gibson Custom Shop 1959 Les Paul reissue (\"R9\"), 2000-production only. 2000年製のレスポールにはレギュラーライン（Historic Collection等）とカスタムショップ製の2系統が存在するため、カスタムショップ製のみが対象。商品名に年式・型番・シリアルが明記されていない出品も多いため、商品説明文・写真キャプション・スペック表に記載のシリアル番号や特徴からも判定すること。",
+  "target": {
+    "manufacturer": "Gibson (Gibson Custom Shop / Gibson USA)",
+    "model": "Les Paul 1959 Reissue（通称 R9 / '59 Reissue）",
+    "production_year": 2000,
+    "line": "Custom Shop 製のみが対象。レギュラーライン（Gibson USA Historic Collection等、カスタムショップ以外）は対象外。",
+    "condition": "中古のみ（新品・未使用品は対象外）",
+    "notation_variants": {
+      "model_name": ["レスポール", "レス・ポール", "Les Paul", "LP"],
+      "model_year": ["1959", "'59", "59年", "59"],
+      "custom_shop": ["カスタムショップ", "カスタムショップ製", "Custom Shop", "CS", "C.S.", "CustomShop"]
     },
-    {
-      "priority": 2,
-      "label": "DR-40 4.3畳 (次点)",
-      "brand": ["KAWAI", "YAMAHA"],
-      "series": {
-        "KAWAI": "ナサール (Nasall) — 例: LKSX22-31（ライトタイプ）, MKSX22-31（スタンダードタイプ）",
-        "YAMAHA": "セフィーネNS (Cefine NS) — 例: AMDC43H（標準壁）, AMDC43C（高壁）"
-      },
-      "sound_rating": "Dr-40",
-      "size_requirement": "4.3畳タイプのみ（他サイズは対象外）",
-      "condition": "中古のみ"
+    "serial_number": {
+      "description": "Gibson Custom Shopの1959 Les Paul Reissueのシリアルは頭が「9」（1959モデルを表す）で始まり、続けて「0」から始まる番号が付く。この0始まりの部分が今回の絞り込み条件（先頭の9自体は1959モデル共通なので判定には使わない）。2000年製の中で製造本数が999本目までは0始まりの4桁（例: 0999）、1000本目以降は0始まりの5桁（例: 01000）になる。",
+      "pattern_regex": "^9\\s?0\\d{3,4}$",
+      "valid_examples": ["9 0123", "90123", "9 01000", "901000", "9 0999", "90999"],
+      "invalid_examples_note": "先頭が9でも2桁目が0以外（例: 91234, 9 5678等）は対象外の可能性が高い。年式やロット表記の詳細は個体差があるため、シリアルが上記パターンに合致し、かつ他の情報（2000年製・カスタムショップである旨の記載）と矛盾しない場合に候補とする。",
+      "verification_limitation": "出品写真にのみシリアルが写っていて本文テキストに記載が無い場合、自動検索では読み取れないことがある。そのようなケースは「要確認（シリアルは写真のみ・目視確認が必要）」と明記した上でレポートに含めること。除外はしない。"
     }
+  },
+  "identification_strategy": [
+    "1. 商品名・タイトルに『1959』『'59』『59』『カスタムショップ』『CS』等の表記があるか確認する。",
+    "2. タイトルで判別できない場合は商品説明文・スペック表・付属品欄（証明書、ケース等）を確認する。",
+    "3. 上記でも判別できない場合は、記載されているシリアル番号が pattern_regex に合致するか確認する。",
+    "4. シリアルが写真のみに写っていて読み取れない場合は除外せず『要確認』として報告する。",
+    "5. レギュラーラインとの誤認を避けるため、カスタムショップ製である旨（本文記載・付属の証明書・シリアル頭の特徴等）が確認できないものは『カスタムショップ疑い（未確定）』として区別して報告する。"
   ],
   "sources": {
-    "priority_high": [
-      "中古楽器店・防音室専門店・防音室リサイクル/買取業者（例: ミュージックランドKEY中古防音室, 防音ナビ中古, 楽器店の中古防音室コーナー等）",
-      "カワイ/ヤマハ特約店の中古・展示品防音室ページ"
+    "specialized_marketplaces": [
+      "デジマート (digimart.net)",
+      "Jギター / J-Guitar (jguitar.com)"
     ],
-    "priority_normal": [
+    "shop_ec_sites": "上記以外にも検索でヒットするギターショップ・中古楽器店・ヴィンテージ/ハイエンドギター専門店のECサイト全般（イシバシ楽器、黒澤楽器店、池部楽器店、Sound House、リボレ秋葉原、Rock oN、Guitar Planet等を含むがこれらに限らない）を横断的にチェックする。",
+    "consumer_to_consumer": [
       "メルカリ (mercari.com)",
       "ヤフオク! (page.auctions.yahoo.co.jp)",
       "PayPayフリマ (paypayfleamarket.yahoo.co.jp)",
-      "ジモティー (jmty.jp)"
-    ]
+      "ラクマ (fril.jp / rakuma.rakuten.co.jp)",
+      "ジモティー (jmty.jp)",
+      "その他、検索で見つかる個人売買・フリマ系サイト全般"
+    ],
+    "general_web": "上記に加え、WebSearchで『レスポール 1959 カスタムショップ 2000年 中古』『Les Paul Custom Shop 1959 2000 used』『R9 2000年製』等の表記揺れを組み合わせたクエリで幅広く検索し、ヒットしたサイトは種別を問わずすべて確認する。"
   }
 }
