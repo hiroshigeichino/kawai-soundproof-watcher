@@ -1,7 +1,8 @@
 # gibson-1959-les-paul-watcher
 
 2000年製 Gibson Les Paul **カスタムショップ** 1959 Reissue（通称 R9）の中古出品を
-1日2回自動チェックし、hiroshige.ichino@gmail.com にメールでレポートするウォッチャーです。
+1日2回自動チェックし、新着があった場合のみ hiroshige.ichino@gmail.com にメール通知する
+ウォッチャーです。
 
 ## 検索条件
 
@@ -34,10 +35,10 @@
 1. `data/seen_items.json`（これまでに検知済みの出品一覧）を読み込む
 2. `data/criteria.json` の検索条件・シリアル判定ロジック・情報源を確認する
 3. Web検索で情報源を横断的にチェックし、条件に合う（または「要確認」の）出品を探す
-4. 既知の出品と照合し、新着・要確認・既知の状況を整理する
-5. `scripts/send_email.py` で hiroshige.ichino@gmail.com に**毎回**メールでレポート送信する
-   （新着の有無にかかわらず、チェック結果を毎回報告する）
-6. `data/seen_items.json` を更新して commit / push
+4. 既知の出品と照合し、未通知の新着（要確認含む）のみを抽出する
+5. 新着が1件以上あれば `scripts/send_email.py` で hiroshige.ichino@gmail.com にメール送信する
+   （新着が無ければメールは送らない）
+6. `data/seen_items.json` を更新して commit / push（新着の有無にかかわらず毎回行う）
 
 状態（何を既に通知済みか）は `data/seen_items.json` に git 管理されているため、
 実行環境がリセットされても GitHub 上の最新状態から再開できます。
