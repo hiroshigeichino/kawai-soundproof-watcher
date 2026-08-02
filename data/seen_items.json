@@ -131,6 +131,17 @@
       "condition": "中古（Murphy Aged）",
       "status": "要確認（海外サイト、価格・在庫は要直接確認。Yamano扱いの日本仕様個体である点は有力な手がかり）",
       "first_seen": "2026-08-02"
+    },
+    {
+      "url": "https://southpawguitars.com/products/gibson-les-paul-custom-shop-left-handed-electric-guitar-used",
+      "title": "Gibson Custom Shop Historic R9 Les Paul Left-handed (Used)",
+      "shop": "Southpaw Guitars（海外・左利き専門店）",
+      "price_jpy": null,
+      "manufacture_year": null,
+      "custom_shop": true,
+      "condition": "中古（AAAトップ、COA付き）",
+      "status": "要確認（年式がリスティングに記載されておらず2000年製か不明。海外サイト、価格・シリアルも要直接確認）",
+      "first_seen": "2026-08-02"
     }
   ]
 }
