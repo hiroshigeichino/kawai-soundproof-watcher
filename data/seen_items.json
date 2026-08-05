@@ -142,6 +142,17 @@
       "condition": "中古（AAAトップ、COA付き）",
       "status": "要確認（年式がリスティングに記載されておらず2000年製か不明。海外サイト、価格・シリアルも要直接確認）",
       "first_seen": "2026-08-02"
+    },
+    {
+      "url": "https://www.digimart.net/cat1/shop5395/DS08876733/",
+      "title": "Gibson Custom Shop USED 2000 Historic Collection 1959 Les Paul Plaintop Reissue Heritage Dark Burst",
+      "shop": "ギターバイヤー増田のオンラインショップ デジマート店",
+      "price_jpy": null,
+      "manufacture_year": 2000,
+      "custom_shop": true,
+      "condition": "中古 B+",
+      "status": "在庫なし（売却済）。参考情報のみ",
+      "first_seen": "2026-08-03"
     }
   ]
 }
