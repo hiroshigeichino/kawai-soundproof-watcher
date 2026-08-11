@@ -1,0 +1,29 @@
+{
+  "recipient_email": "hiroshige.ichino@gmail.com",
+  "note": "こちらは別ウォッチャー（Dr-40・0.8畳、メーカー問わず）用の条件ファイル。防音室本体（DR-50/DR-40 4.3畳、data/criteria.json）とは独立して管理する。",
+  "target": {
+    "sound_rating": "Dr-40",
+    "size_requirement": "0.8畳タイプのみ（他サイズは対象外）",
+    "brand": "指定なし（カワイ・ヤマハ等メーカー問わず）",
+    "condition": "中古のみ"
+  },
+  "sources": {
+    "must_check": {
+      "note": "毎回の実行で必ず個別にチェックすること。",
+      "stores": [
+        "ピアノプラザ (piano-plaza.com)",
+        "島村楽器 (info.shimamura.co.jp/soundproof)",
+        "大東楽器 (daito-gakki.co.jp)",
+        "宮地楽器 (miyajimusic.com)"
+      ]
+    },
+    "priority_normal": [
+      "メルカリ (mercari.com)",
+      "ヤフオク! (page.auctions.yahoo.co.jp)",
+      "PayPayフリマ (paypayfleamarket.yahoo.co.jp)",
+      "ジモティー (jmty.jp)",
+      "MIKI MUSIC DESIGN+ (design.miki.co.jp)"
+    ],
+    "note": "上記は最低限チェックすべき情報源。それ以外でも検索でヒットした条件合致品があれば同様に対象とする。"
+  }
+}

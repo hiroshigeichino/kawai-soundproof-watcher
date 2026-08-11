@@ -1,17 +1,26 @@
 # kawai-soundproof-watcher
 
-中古の防音室（カワイ ナサール Dr-50 / Dr-40、ヤマハ セフィーネNS Dr-40）の新着出品を
-1日2回自動チェックし、新着があった場合のみ hiroshige.ichino@gmail.com にメール通知する
-ウォッチャーです。
+中古の防音室の新着出品を自動チェックし、新着があった場合のみ hiroshige.ichino@gmail.com
+にメール通知するウォッチャーです。用途の異なる2系統のウォッチャーを運用しています。
 
-## 検索条件
+## ウォッチャー1: 防音室本体（DR-50 / DR-40 4.3畳）
 
-詳細は [`data/criteria.json`](data/criteria.json) を参照。
+1日2回（日本時間 8:00 / 20:00）実行。詳細は [`data/criteria.json`](data/criteria.json) を参照。
 
 1. **第一希望**: カワイ ナサール（Nasall）Dr-50 の防音室（サイズ不問）
 2. **次点**: Dr-40・4.3畳タイプの防音室のみ
    - カワイ ナサール（例: LKSX22-31, MKSX22-31）
    - ヤマハ セフィーネNS（例: AMDC43H, AMDC43C）
+
+状態管理: [`data/seen_items.json`](data/seen_items.json)
+
+## ウォッチャー2: Dr-40・0.8畳（メーカー問わず）
+
+1日1回（日本時間 8:00）実行。詳細は [`data/criteria_dr40_08.json`](data/criteria_dr40_08.json) を参照。
+
+- Dr-40等級・0.8畳タイプの中古防音室（カワイ・ヤマハ等メーカー問わず）
+
+状態管理: [`data/seen_items_dr40_08.json`](data/seen_items_dr40_08.json)
 
 いずれも「中古」のみが対象です。
 
@@ -22,17 +31,17 @@
 
 ## 仕組み
 
-1日2回（日本時間 8:00 / 20:00）、Claude Code Remote の Routine（スケジュール実行）が
-新しいセッションを起動し、以下を行います。
+Claude Code Remote の Routine（スケジュール実行）がこのセッションを再開し、以下を行います
+（ウォッチャー1・2共通の流れ、参照する `criteria`/`seen_items` ファイルが異なるのみ）。
 
-1. `data/seen_items.json`（これまでに検知済みの出品一覧）を読み込む
-2. Web検索で上記情報源を横断的にチェックし、条件に合う出品を探す
+1. `data/seen_items*.json`（これまでに検知済みの出品一覧）を読み込む
+2. Web検索で情報源を横断的にチェックし、条件に合う出品を探す
 3. 既知の出品と照合し、新着のみを抽出
 4. 新着があれば `scripts/send_email.py` で hiroshige.ichino@gmail.com にメール送信
    （新着が無ければメールは送らない）
-5. `data/seen_items.json` を更新して commit / push
+5. `data/seen_items*.json` を更新して commit / push
 
-状態（何を既に通知済みか）は `data/seen_items.json` に git 管理されているため、
+状態（何を既に通知済みか）は `data/seen_items*.json` に git 管理されているため、
 実行環境がリセットされても GitHub 上の最新状態から再開できます。
 
 ## メール送信のセットアップ（Resend）
