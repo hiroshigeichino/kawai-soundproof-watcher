@@ -1,6 +1,6 @@
 {
   "recipient_email": "hiroshige.ichino@gmail.com",
-  "note": "Dr-50 / Dr-40 are sound insulation grades (遮音等級), not model numbers. Kawai's unit-type soundproof room brand is 'ナサール' (Nasall). Yamaha's equivalent product line is 'セフィーネNS' (Cefine NS).",
+  "note": "Dr-50 / Dr-40 are sound insulation grades (遮音等級), not model numbers. Kawai's unit-type soundproof room brand is 'ナサール' (Nasall). Yamaha's soundproof room umbrella brand is 'アビテックス' (Avitecs); 'セフィーネNS' (Cefine NS) is its current sub-line, but older sub-lines (セフィーネ/セフィーネII等、型番AMCC/AMCVB/AMBC/AMBB等) are also acceptable for DR-40 4.3畳 target — 旧世代の方が安価なことが多いため積極的に拾うこと。",
   "targets": [
     {
       "priority": 1,
@@ -17,7 +17,7 @@
       "brand": ["KAWAI", "YAMAHA"],
       "series": {
         "KAWAI": "ナサール (Nasall) — 例: LKSX22-31（ライトタイプ）, MKSX22-31（スタンダードタイプ）",
-        "YAMAHA": "セフィーネNS (Cefine NS) — 例: AMDC43H（標準壁）, AMDC43C（高壁）"
+        "YAMAHA": "アビテックス (Avitecs) ブランド全般。最新の「セフィーネNS」（例: AMDC43H, AMDC43C）だけでなく、旧世代の「セフィーネ」「セフィーネII」等（例: AMCC43H, AMCC43H1UL, AMCVB43C, AMBC43C, AMBB43C）も対象に含む。型番プレフィックスがAMDC以外（AMCC/AMCVB/AMBC/AMBB等）でも、Dr-40・4.3畳であれば対象。"
       },
       "sound_rating": "Dr-40",
       "size_requirement": "4.3畳タイプのみ（他サイズは対象外）",
